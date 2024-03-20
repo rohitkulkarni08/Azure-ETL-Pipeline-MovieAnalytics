@@ -1,0 +1,30 @@
+{
+    "name": "PL_DB_TRIGGER",
+    "properties": {
+        "activities": [
+            {
+                "name": "PL_ETL_IMDB_MOVIE_ANALYTICS",
+                "type": "DatabricksNotebook",
+                "dependsOn": [],
+                "policy": {
+                    "timeout": "0.12:00:00",
+                    "retry": 0,
+                    "retryIntervalInSeconds": 30,
+                    "secureOutput": false,
+                    "secureInput": false
+                },
+                "userProperties": [],
+                "typeProperties": {
+                    "notebookPath": "/Users/rohitkulkarni0810@outlook.com/MOVIES_DATA_ANALYSIS/Movie_Analysis_ETL"
+                },
+                "linkedServiceName": {
+                    "referenceName": "LS_ADB",
+                    "type": "LinkedServiceReference"
+                }
+            }
+        ],
+        "annotations": [],
+        "lastPublishTime": "2024-03-20T19:23:44Z"
+    },
+    "type": "Microsoft.DataFactory/factories/pipelines"
+}
