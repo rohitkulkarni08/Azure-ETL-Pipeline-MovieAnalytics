@@ -35,10 +35,10 @@ We conduct a comprehensive analysis of movie genres in the dataset. We calculate
 
 ## Data flow:
 
-1. **Extract Data**: Retrieve CSV data from Azure Blob Storage for processing.
-2. **Transform Data**: Utilize Python and PySpark on Azure Databricks to analyze and process the data, storing the results in Azure Data Lake Storage Gen2.
-3. **Load Data**: Transfer the processed data into an Azure SQL database to establish a reporting layer for dashboard creation.
-4. **Automation**: Construct end-to-end pipelines in Azure Data Factory to automate the data flow from extraction to reporting.
+1. **Extract Data**: Retrieve CSV data from Azure Blob Storage for processing
+2. **Transform Data**: Utilize Python and PySpark on Azure Databricks to analyze and process the data, storing the results in Azure Data Lake Storage Gen2
+3. **Load Data**: Transfer the processed data into an Azure SQL database to establish a reporting layer for dashboard creation
+4. **Automation**: Construct end-to-end pipelines in Azure Data Factory to automate the data flow from extraction to reporting layers
 
 <div style="text-align:center;">
   <img src="https://github.com/rohitkulkarni08/Azure-ETL-Pipeline-MovieAnalytics/blob/808ba18def5693ef899c34b535315e0faf1bd159/images/Flow.png" width = "900" height = "500">
